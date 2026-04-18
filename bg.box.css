@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
+#group p{
+    font-family: "Bitcount Grid Double", system-ui;
+}
+#group{
+
+   /* background-color: pink;*/
+   /* background: linear-gradient(105deg, pink, purple, greenyellow, red);
+    width:100vw;
+    height:100vh; */
+    background-image: url(https://tse1.mm.bing.net/th/id/OIP.Ac12g-zrSM7Q3NcmtvpROwHaD5?rs=1&pid=ImgDetMain&o=7&rm=3);
+    width:100vw;
+    height:100vh;
+    color:white;
+    background-repeat:no-repeat;
+    background-size: cover;
+    /* Box Model*/
+    /* border, padding, margin*/
+    /* solid, double, dotted, dashed, groove*/
+}
+.box{
+        border:2px solid red;
+        width:200px;
+        background-color: yellow;
+        border-radius:20px;
+        padding: 30px;
+        /* padding: 10px 40px 80px 120px */
+        /* px(smallest unit), %(larger unit) */
+        margin:40px
+}
+.sign{
+    border:2px solid black;
+    width:200px;
+    background-color:#dfb50f;
+    border-radius:20px;
+    margin: 0px 0px 0px 500px
+}
